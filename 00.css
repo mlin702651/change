@@ -1,0 +1,639 @@
+html{
+    background-color: #F1FAFB;
+    margin: 0 auto;
+    
+}
+body{
+    margin: 0 auto;
+   
+
+}
+div.parallel{
+    float:left;
+}
+/* 最上面 */
+.top{
+    background-color: #679298;
+    height: 9.63vw;
+    width: 100vw;
+}
+.img_logonav{
+    margin:3.5vw 0 0 3.9vw;
+    width: 9.12vw;
+  
+}
+
+ul{
+    list-style:none;
+}
+li{
+    margin-left: 1.04vw;
+    margin-top: 4.16vw;
+    float:left;
+    color:#FFFFFF;
+    font-family: Microsoft JhengHei;
+    font-size: 1.35vw;
+}
+.top_icon{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    top: 5.1vw;
+    left: 87.4vw;
+}
+.icon_search{
+    width: 1.26vw;
+    height: 1.26vw;
+}
+.icon_mail{
+    margin-left: 1.197vw;
+    width: 1.58vw;
+    height: 1.26vw;
+}
+.btn_login{
+    margin-left: 1.197vw;
+    width: 3.37vw;
+    height: 1.58vw;
+}
+.btn_ham{
+    display: none;
+}
+/* 大圖 */
+.second{
+    margin: 0;
+}
+.controlLR{
+    position: absolute;
+    top:24.27vw;
+}
+.icon_left{
+    position: absolute;
+    left:2vw;
+}
+.icon_right{
+    position: absolute;
+    left:96.35vw;
+}
+.second_word{
+    position: absolute;
+    top:30.468vw;
+    left:66.1458vw;
+    color:#FFFFFF;
+    font-family: Microsoft JhengHei;
+    font-size: 3.64vw;
+}
+.second_hashtag{
+    position: absolute;
+    top:36.25vw;
+    left:66.114vw;
+    color:#FFFFFF;
+    font-family: Microsoft JhengHei;
+    font-size: 1.92vw;
+}
+.img_carousel{
+    width: 100vw;
+    height: 33.38vw;
+}
+/* 六個框框 */
+.third{
+    width:100vw ;
+    height: 28.489vw;
+}
+.row1{
+    width: 100vw;
+    height:9.11vw;
+    margin-top: 4.739vw;
+    margin-left: 5.2vw;
+    margin-bottom: 1.875vw;
+}
+.route{
+    height: 9.645vw;
+    width:28vw;
+    border:solid 1.5px #4C777C;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin-left: 1.35vw;
+    /* margin: 91px 0 0 128px; */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.tital{
+    color:#4C777C;
+    font-family: Microsoft JhengHei;
+    font-size: 1.2vw;
+    margin: 2vw 0 0 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.route_content{
+    color:#4C777C;
+    font-family: Microsoft JhengHei;
+    font-size: 1.04vw;
+    margin-top: 0.36vw;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.hashtag{
+    color:#4C777C;
+    font-family: Microsoft JhengHei;
+    font-size: 1.04vw;
+    margin-top: 0.4vw;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.row2{
+    margin-left: 5.2vw;
+    margin-top: 1.875vw;
+    height:9.11vw;
+}
+.img_route{
+    margin: 2.4vw 1.19vw 1.92vw 2.135vw;
+    width: 4.74vw;
+    height: 4.74vw;
+}
+.icon_plus_tital{
+    margin-top: 3.6vw;
+    color:#4C777C;
+    font-family: Microsoft JhengHei;
+    font-size: 1.2vw;
+
+}
+.route_plus{
+    height: 9.645vw;
+    width:28vw;
+    border:solid 1px #4C777C;
+    border-radius: 8px;
+    margin-left: 1.35vw;
+    /* margin: 91px 0 0 128px; */
+}
+.route_appear{
+    display: none;
+}
+/* 本日推薦 */
+.forth{
+    width: 100vw;
+    height: 967px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+.left_up{
+    display: flex;
+    width: 58.27vw;
+    justify-content:space-between;
+    margin-left: 6.583vw;
+}
+.date{
+    margin-top: 5.2vw;
+    color:#4C777C;
+    font-family: Microsoft JhengHei;
+    font-size: 1.4vw;
+}
+.today_tital{
+    margin-top: 5.17vw;
+    color:#4C777C;
+    font-family: Microsoft JhengHei;
+    font-size: 1.51vw;
+}
+.today{
+    margin-left: 6.583vw;
+    color:#4C777C;
+    font-family: Microsoft JhengHei;
+}
+.box_today{
+    display: flex;
+    flex-direction: row;
+}
+.img_rec{
+    margin-top: 1.15vw;
+
+}
+.today_line{
+    width: 58.27vw;
+    height:2px;
+    background-color: #4C777C;
+    opacity: 0.5;
+    margin-top: 0.854vw;
+}
+.today_content{
+    margin-top: 3.2vw;
+    margin-left: 2vw;
+    font-size: 1.35vw;
+}
+.today_content_place{
+    display: flex;
+    margin-top: 3.5vw;
+    justify-content: flex-end;
+    font-size: 1.04vw;
+}
+
+/* 本日推薦 右邊*/
+.precaution{
+    /* display: none; */
+    width: 25.52vw;
+    height: 11.9vw;
+    border:solid 2px #4C777C;
+    border-radius: 13px;
+    margin-top: 5.06vw;
+    margin-left: 3vw;
+}
+.precaution_tital{
+    color:#4C777C;
+    font-family: Microsoft JhengHei;
+    font-size: 1.4vw;
+    margin: 1.05vw 0 0 1vw;
+}
+.precaution_row1{
+    color:#4C777C;
+    font-family: Microsoft JhengHei;
+    font-size: 1.4vw;
+    margin: 1.05vw 0 0 1vw;
+}
+.precaution_row2{
+    color:#4C777C;
+    font-family: Microsoft JhengHei;
+    font-size: 0.9vw;
+    margin: 0.9vw 0 0 1.2vw;
+}
+
+.tour{
+    width: 25.55vw;
+    height: 14.96vw;
+    border:solid 2px #4C777C;
+    border-radius: 13px;
+    margin-top: 1.895vw;
+    margin-left: 3vw;
+}
+.tour_tital{
+    color:#4C777C;
+    font-family: Microsoft JhengHei;
+    font-size: 1.35vw;
+    margin: 1.05vw 0 1.2vw 1vw;
+}
+.tour_content{
+    color:#4C777C;
+    font-family: Microsoft JhengHei;
+    font-size: 1.04vw;
+    margin: 0.5vw 0 0 1.2vw;
+}
+.img_ad{
+    margin-left: 3vw;
+    margin-top: 1.895vw;
+    width: 25.55;
+    height: 9.536vw;
+}
+/* 本月排行 */
+.fifty{
+    width: 86.76vw;
+    height: 32vw;
+    margin-left: 6.5625vw;
+}
+.rank_tital{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4.3645vw;
+}
+.rank_left{
+    display: flex;
+    flex-direction: row;
+}
+.icon_crown{
+    width: 2.37vw;
+    height: 1.896vw;
+}
+.rank_word1{
+    color:#4C777C;
+    font-family: Microsoft JhengHei;
+    font-size: 1.4vw;
+    margin: 0 0 1.875vw 1vw;
+}
+.rank_word2{
+    color:#4C777C;
+    font-family: Microsoft JhengHei;
+    font-size: 1.4vw;
+    margin: 0 0 1.875vw 1vw;
+}
+.rank_content{
+    display: flex;
+    flex-direction: row;
+}
+.box_rank1{
+    background-color: #FFFFFF;
+    width: 28.07vw;
+    height: 23.07vw;
+    border-radius: 6px;
+    box-shadow: 0px 4px 16px #b3b3b3 ;
+
+}
+.box_rank2{
+    background-color: #FFFFFF;
+    width: 28.07vw;
+    height: 23.07vw;
+    border-radius: 6px;
+    margin-left: 1.3vw;
+    box-shadow: 0px 4px 16px #b3b3b3 ;
+}
+.box_rank3{
+    background-color: #FFFFFF;
+    width: 28.07vw;
+    height: 23.07vw;
+    border-radius: 6px;
+    margin-left: 1.3vw;
+    box-shadow: 0px 4px 16px #b3b3b3 ;
+}
+.icon_no1{
+    position: absolute;
+}
+.icon_no2{
+    position: absolute;
+}
+.icon_no3{
+    position: absolute;
+}
+.rank_word{
+    color:#4C777C;
+    font-family: Microsoft JhengHei;
+    font-size: 1.4vw;
+    margin:2.5vw 0 0 2.24vw ;
+}
+.rank_hashtag{
+    color:#4C777C;
+    font-family: Microsoft JhengHei;
+    font-size: 1vw;
+    margin:0.5vw 0 0 2.24vw ;
+}
+.no{
+    width: 28.07vw;
+    height: 14.375vw; 
+}
+/*隱藏的S下半部*/
+.s_bottom{
+    display:none;
+
+}
+/* footer */
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 13.8vw;
+    background-color: #679298;
+}
+
+.footer_row{
+    color:#ffffff;
+    font-family: Microsoft JhengHei;
+    font-size: 1.25vw;
+    margin-left: 6.5625vw;
+}
+.footer_row1{
+    margin-top: 3.75vw;
+    margin-bottom: 0;
+}
+.footer_row2{
+    margin: 0.3vw 0 0 0;
+}
+.footer_row3{
+    margin:0.3vw 0 0 0;
+}
+.icon_logofooter{
+    margin:5.3vw 0 0 21.38vw;
+}
+
+/* rwd M */
+@media (max-width:768px) {
+li{
+    margin-left: 1.73vw;
+    margin-top: 2.7vw;
+    float:left;
+    color:#FFFFFF;
+    font-family: Microsoft JhengHei;
+    font-size:1.3vw;
+}
+.third{
+    width:100vw ;
+    height: 37.63vw;
+}
+.route{
+    height: 12.89vw;
+    width:42.31vw;
+    margin-left: 1.35vw;
+    margin-top: 1.822vw;
+}
+.route_plus{
+    height: 12.89vw;
+    width:42.31vw;
+    margin-top: 1.822vw;
+}
+.img_logonav{
+    margin:3.5vw 0 0 3.9vw;
+    width: 9.167vw;
+   
+}
+/*四小格*/
+.img_route{
+    margin: 3.033vw 1.757vw 2.8125vw 3vw;
+    width: 7.24vw;
+    height: 7.24vw;
+}
+.tital{
+    font-size: 1.7vw;
+    margin: 2.7vw 0 0 0;
+}
+.route_content{
+    font-size: 1.5625vw;
+    margin-top: 0.66vw;
+    margin-bottom: 0;
+}
+.hashtag{
+    font-size: 1.5625vw;
+    margin-top: 0.4vw;
+}
+.icon_plus_tital{
+    margin-top: 5.078vw;
+    font-size: 1.7vw;
+}
+/*本日推薦*/
+.forth{
+    width: 100vw;
+    height: 682px;
+}
+.left_up{
+    
+    width: 58.27vw;
+    margin-left: 4.25vw;
+}
+.today_tital{
+    margin-top: 3vw;
+    font-size: 2.7vw;
+    margin-bottom: 0;
+}
+.today{
+    margin-left: 4.25vw;
+}
+.today_line{
+    width: 91.875vw;
+    margin-top: 1.744vw;
+}
+.today_content{
+    margin-top: 6.35vw;
+    margin-left: 4.11vw;
+    font-size: 2.47vw;
+}
+
+.img_rec{
+    margin-top: 2.356vw;
+}
+/*本月排行*/
+.rank_word{
+    font-size: 1.32vw;
+    margin:1.6vw 0 0 2.24vw ;
+}
+.rank_hashtag{
+    font-size: 0.8vw;
+    margin:0.3vw 0 0 2.24vw ;
+}
+/*footer*/
+.footer_row{
+    font-size: 1.1vw;
+    margin-left: 6.64vw;
+}
+.icon_logofooter{
+    margin:5.3vw 0 0 12vw;
+}
+
+/*消失的東西*/
+.controlLR{
+    display: none;
+}
+.disppear{
+    display: none;
+}
+.precaution{
+    /* position: absolute;
+    opacity: 0; */
+    display: none;
+    clear: both;
+}
+.tour{
+    display: none;
+}
+.img_ad{
+    display: none;
+}
+.date{
+    display: none;
+}
+.today_content_place{
+    display: none;
+}
+
+
+}/*結尾*/
+@media (max-width:320px) {
+.top{
+    height: 15.625vw;
+}
+.top_icon{
+    display: none;
+} 
+.img_logonav{
+    margin:3.5vw 0 0 3.9vw;
+    width: 24.82vw;
+}
+.btn_ham{
+    display: block;
+    position: absolute;
+    margin-left: 80.3125vw;
+    margin-top: 4.53vw;
+}
+.second_word{
+    top:27.468vw;
+    left:12.18vw;
+    font-size: 5.3125vw;
+}
+.second_hashtag{
+    top:36.468vw;
+    left:12.18vw;
+    font-size: 2.8125vw;
+}
+.route_appear_background{
+    width: 100vw;
+    height: 52.81vw;
+    background-color:#F1FAFB;
+    display: flex;
+    flex-direction: row;
+}
+.route_appear{
+    display: block;
+    width: 31.25vw;
+    height: 44.0625vw;
+    border:solid 0.7px #4C777C;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin: 13px 0 0 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.img_route{
+    width: 18.125vw;
+    height: 18.125vw;
+    margin: 15px 21px 0px 21px;
+}
+.route_appear_marlf{
+    margin-left: 5px;
+}
+.tital{
+    font-size: 5px;
+    margin: 0;
+    
+}
+.route_content{
+    font-size: 1.5vw;
+    margin: 0;
+    margin-left: 5px;
+}
+.hashtag{
+    font-size: 1.5vw;
+    margin: 0;
+}
+
+.s_bottom{
+    display:block;
+
+}
+.forth{
+    height: 320px;
+}
+.img_ad_s{
+    margin: 4.0625vw;
+}
+.btn_uptotop{
+    margin: 0.5vw 44.875vw;
+}
+.s_bottom_word{
+    margin: 22px 150px;
+}
+
+/*消失的東西*/
+ul{
+    display: none;
+}
+.fifty{
+    display: none;
+}    
+.footer{
+    display: none;
+}    
+.route_plus{
+    display: none;
+}
+.third{
+    display: none;
+}
+}/*結尾*/
